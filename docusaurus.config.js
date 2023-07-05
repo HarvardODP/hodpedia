@@ -11,14 +11,14 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://docs.hodp.org",
+  url: "https://wiki.hodp.org",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "hodpedia", // Usually your GitHub org/user name.
+  organizationName: "Harvard Open Data Project", // Usually your GitHub org/user name.
   projectName: "hodpedia", // Usually your repo name.
 
   onBrokenLinks: "throw",
