@@ -1,3 +1,12 @@
+# hodpedia
+
+Harvard Undergraduate Open Data Project Wiki
+
+# HODP colors
+
+monochrome_colors = ['#251616', '#760000', '#C63F3F', '#E28073', '#F1D3CF']
+primary_colors = ['#C63F3F', '#F4B436', '#83BFCC', '#455574', '#E2DDDB']
+
 # Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
