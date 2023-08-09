@@ -43,12 +43,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           // editUrl: "https://github.com/HarvardODP/hodpedia/tree/main/docs",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/HarvardODP/hodpedia/tree/main/blog",
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -74,7 +68,6 @@ const config = {
             position: "left",
             label: "Wiki",
           },
-          // { to: "/blog", label: "Blog", position: "left" },
           {
             to: "https://github.com/HarvardODP/hodpedia",
             label: "GitHub",
