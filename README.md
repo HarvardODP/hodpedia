@@ -1,4 +1,4 @@
-# hodpedia
+# HODPedia
 
 Harvard Undergraduate Open Data Project Wiki
 
