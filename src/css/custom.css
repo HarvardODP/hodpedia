@@ -3,6 +3,12 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@500&display=swap");
+
+@font-face {
+  font-family: "Post Grotesk";
+  src: url("/./static/PostGrotesk.ttf");
+}
 
 /* You can override the default Infima variables here. */
 :root {
@@ -10,16 +16,17 @@
   --ifm-color-primary-dark: #c63f3f;
   --ifm-color-primary-darker: #c63f3f;
   --ifm-color-primary-darkest: #c63f3f;
-  --ifm-color-primary-light: #f1d3cf;
-  --ifm-color-primary-lighter: #f1d3cf;
+  --ifm-color-primary-light: #c63f3f;
+  --ifm-color-primary-lighter: #e28073;
   --ifm-color-primary-lightest: #f1d3cf;
   --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Open Sans";
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #c63f3f;
+  --ifm-color-primary: #f1d3cf;
   --ifm-color-primary-dark: #c63f3f;
   --ifm-color-primary-darker: #c63f3f;
   --ifm-color-primary-darkest: #c63f3f;

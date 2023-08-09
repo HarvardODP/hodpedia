@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "HODP Wiki",
-  tagline: "Search for student-run articles!",
+  tagline: "Search for articles written by students, for students.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -41,7 +41,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/HarvardODP/hodpedia/tree/main/docs",
+          // editUrl: "https://github.com/HarvardODP/hodpedia/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
@@ -72,9 +72,9 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Wiki",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           {
             to: "https://github.com/HarvardODP/hodpedia",
             label: "GitHub",
