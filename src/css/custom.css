@@ -5,10 +5,11 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@500&display=swap");
 
+/* 
 @font-face {
   font-family: "Post Grotesk";
   src: url("/./static/PostGrotesk.ttf");
-}
+} */
 
 /* You can override the default Infima variables here. */
 :root {

@@ -69,6 +69,11 @@ const config = {
             label: "Wiki",
           },
           {
+            to: "https://hodp.org",
+            position: "right",
+            label: "HODP",
+          },
+          {
             to: "https://github.com/HarvardOpenData",
             label: "GitHub",
             position: "right",

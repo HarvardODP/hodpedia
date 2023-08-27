@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # What is HODPedia?
 
-**HODPedia** is a student-run wiki powered by the Harvard Open Data Project, dedicated to providing Harvard students information about student organizations, academics, and campus life. It's a living document — anyone with a @college email address can reach out to contribute!
+**HODPedia** is a student-run wiki powered by the Harvard Open Data Project, dedicated to providing Harvard students information about student organizations, academics, and campus life. It's a living document — anyone with an @college email address can reach out to contribute!
 
 ## Explore
 
