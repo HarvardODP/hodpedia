@@ -71,7 +71,7 @@ const config = {
           {
             to: "https://hodp.org",
             position: "right",
-            label: "HODP",
+            label: "HODP Main Website",
           },
           {
             to: "https://github.com/HarvardOpenData",
