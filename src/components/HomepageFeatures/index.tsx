@@ -4,21 +4,21 @@ import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<"svg">>;
+  image: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: "Student Organizations",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    image: "assets/clubs.png",
     description: (
       <>Read all about your favorite student organizations on campus.</>
     ),
   },
   {
     title: "House Life",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    image: "assets/houses.png",
     description: (
       <>
         A guide to all of Harvard's houses from the students that live in them.
@@ -27,16 +27,16 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Academic Guides",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    image: "assets/classes.png",
     description: <>Learn how to navigate Harvard's academics first-hand.</>,
   },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({ title, image, description }: FeatureItem) {
   return (
     <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={image} width="200px" height="200px"></img>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

@@ -7,7 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "HODP Wiki",
-  tagline: "Search for articles written by students, for students.",
+  tagline:
+    "Open datasets and details about all aspects of campus life at Harvard!",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
