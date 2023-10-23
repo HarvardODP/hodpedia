@@ -1,4 +1,8 @@
-GUSH
+---
+sidebar_position: 1
+---
+
+# Group for Undergraduates in Statistics at Harvard
 
 The mission of the Group for Undergraduates in Statistics at Harvard (GUSH) is to create a unique space on campus that is open to all statistics enthusiasts! By hosting various events and programs, GUSH aims to cultivate passion for statistics, create a supportive community for undergraduates, and provide educational opportunities that empower students to use statistics and data science to transform the world.
 
