@@ -17,18 +17,18 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: "House Life",
+    title: "Campus Life",
     image: "assets/houses.png",
     description: (
       <>
-        A guide to all of Harvard's houses from the students that live in them.
+        Datasets on all of aspects of Harvard student life.
       </>
     ),
   },
   {
-    title: "Academic Guides",
+    title: "Academics",
     image: "assets/classes.png",
-    description: <>Learn how to navigate Harvard's academics first-hand.</>,
+    description: <>Navigate Harvard's academics in a data-driven way.</>,
   },
 ];
 
